@@ -9,8 +9,8 @@ const timesTable = require("./src/js/timestable");
 
 //predicter.PredictPopulation();
 //leapyear.GetFebLastDay();
-//guessnumber.GuessNumber();
-timesTable.CalculateTimesTable();
+guessnumber.GuessNumber();
+//timesTable.CalculateTimesTable();
 
 app.listen("3000",()=>{
     console.log("press CTRL + C to escape.");
